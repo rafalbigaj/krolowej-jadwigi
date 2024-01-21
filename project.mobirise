@@ -55,7 +55,7 @@
     "imageResize": true,
     "chatbutton": {},
     "favicon": false,
-    "mbrsiteDomain": "bkkb9lrnmu",
+    "mbrsiteDomain": "tkwoqpjajo",
     "usedWebp": false,
     "cssOptimize": false,
     "lazyLoad": false,
@@ -63,11 +63,25 @@
     "sitemapSwitcher": false,
     "sitemapSwitcherAuto": false,
     "siteUrl": false,
-    "cookiesAlert": false,
+    "cookiesAlert": {
+      "customDialogSelector": false,
+      "colorText": "#424a4d",
+      "colorBg": "#ffffff",
+      "colorButton": "#2b7a69",
+      "rejectColor": "#ffffff",
+      "colorLink": "#424a4d",
+      "underlineLink": true,
+      "opacityOverlay": "0",
+      "bgOpacity": "72",
+      "text": "Używamy plików cookie, żeby zapewnić Ci najwyższy poziom obsługi.",
+      "textButton": "Akceptuję",
+      "rejectText": "REJECT"
+    },
     "gdpr": false,
     "pwa-switcher": false,
     "screenshot": "screenshot.png",
-    "publishChangesOnly": true
+    "publishChangesOnly": true,
+    "cookiesAlertType": "1"
   },
   "pages": {
     "index.html": {
